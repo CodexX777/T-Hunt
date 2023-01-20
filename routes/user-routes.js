@@ -22,7 +22,7 @@ router.post(
   userControllers.signup
 );
 
-router.use(checkAuth);
+//router.use(checkAuth);
 
 
 router.patch(
